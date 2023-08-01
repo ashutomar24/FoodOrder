@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="images/pinch of spice.png" alt="Restaurant Logo" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Categories</a>
+                    </li>
+                    <li>
+                        <a href="foods.html">Foods</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Navbar Section Ends Here -->
+
+    <!-- fOOD sEARCH Section Starts Here -->
+    <section class="food-search text-center">
+        <div class="container">
+            
+            <form action="food-search.html" method="POST">
+                <input type="search" name="search" placeholder="Search for Food.." required>
+                <input type="submit" name="submit" value="Search" class="btn btn-primary">
+            </form>
+
+        </div>
+    </section>
+    <!-- fOOD sEARCH Section Ends Here -->
+
+    <!-- CAtegories Section Starts Here -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="text-center">Explore Foods</h2>
+
+            <a href="category-foods.html">
+            <div class="box-3 float-container">
+                <img src="images/starters logo.jpg" alt="Starters" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white">Starters</h3>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="box-3 float-container">
+                <img src="images/Best seller meals.jpg" alt="Best seller meals" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white">Best seller meals</h3>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="box-3 float-container">
+                <img src="images/drinks.jpg" alt="Drinks" class="img-responsive img-curve">
+                <h3 class="float-text text-white">Drinks and Beverages</h3>
+            </div> 
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Categories Section Ends Here -->
+
+    <!-- fOOD MEnu Section Starts Here -->
+    <section class="food-menu">
+        <div class="container">
+            <h2 class="text-center">Starters</h2>
+
+    <div class="food-menu-box">
+        <div class="food-menu-img">
+            <img src="images/french fries.gif" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+        </div>
+
+        <div class="food-menu-desc">
+            <h4>Spicy French Fries</h4>
+            <p class="food-price">Rs 230</p>
+            <p class="food-detail">
+                Made with Italian Sauce, Chicken, and organice vegetables.
+            </p>
+            <br>
+
+            <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+    </div>
+
+    <div class="food-menu-box">
+        <div class="food-menu-img">
+            <img src="images/soya chaap.jpg" alt="Chicke Hawain Momo" class="img-responsive img-curve">
+        </div>
+
+        <div class="food-menu-desc">
+            <h4>Soya Chaap</h4>
+            <p class="food-price">Rs 250</p>
+            <p class="food-detail">
+                Made with Italian Sauce, Chicken, and organice vegetables.
+            </p>
+            <br>
+
+            <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+    </div>
+    <div class="food-menu-box">
+        <div class="food-menu-img">
+            <img src="images/paneer tikka.webp" alt="Chicke Hawain Momo" class="img-responsive img-curve">
+        </div>
+
+        <div class="food-menu-desc">
+            <h4>Paneer Tikka</h4>
+            <p class="food-price">Rs 250</p>
+            <p class="food-detail">
+                Made with Italian Sauce, Chicken, and organice vegetables.
+            </p>
+            <br>
+
+            <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+    </div>
+
+    <div class="food-menu-box">
+        <div class="food-menu-img">
+            <img src="images/chakna.jpg" alt="Chicke Hawain Momo" class="img-responsive img-curve">
+        </div>
+
+        <div class="food-menu-desc">
+            <h4>Chakhna</h4>
+            <p class="food-price">Rs 250</p>
+            <p class="food-detail">
+                Made with Italian Sauce, Chicken, and organice vegetables.
+            </p>
+            <br>
+
+            <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+    </div>
+
+ 
+    <section class="food-menu">
+        <div class="container">
+            <h2 class="text-center">BestSeller Meals</h2>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/paneer handi.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Paneer Handi</h4>
+                    <p class="food-price">Rs 260</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, Chicken, and organice vegetables.
+                    </p>
+                    <br>
+
+                    <a href="order.html" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/shahi paneer.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Shahi Paneer</h4>
+                    <p class="food-price">Rs 230</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, Chicken, and organice vegetables.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/dal makhani.jpg" alt="Chicke Hawain Burger" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Dal Makhani</h4>
+                    <p class="food-price">Rs 150</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, Chicken, and organice vegetables.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/mix vegetable.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Delicious Mix-Veg </h4>
+                    <p class="food-price">Rs 230</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, Chicken, and organice vegetables.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/thali.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Maharaja Thaali</h4>
+                    <p class="food-price">Rs 200</p>
+                    <p class="food-detail">
+                        Made with Desi Ghee.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/veg biryani.jpg" alt="Chicke Hawain Momo" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Hyderabadi Veg Biryani</h4>
+                    <p class="food-price">Rs 250</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, Chicken, and organice vegetables.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+            <section class="food-menu">
+                <div class="container">
+                    <h2 class="text-center">Drinks & Beverages</h2>
+        
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/iced cocktails.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Iced Cocktails</h4>
+                    <p class="food-price">Rs 150</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, Chicken, and organice vegetables.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+        
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/orange cocktail.jpg" alt="Chicke Hawain Momo" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Orange Cocktails</h4>
+                    <p class="food-price">Rs 180</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, Chicken, and organice vegetables.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/healthy-drink-fresh-carrot.jpg" alt="Chicke Hawain Momo" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Carrot Juice</h4>
+                    <p class="food-price">Rs 110</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, Chicken, and organice vegetables.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/corona beer.jpg" alt="Chicke Hawain Momo" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Corona Beer</h4>
+                    <p class="food-price">Rs 250</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, Chicken, and organice vegetables.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+        
+            <section class="food-menu">
+                <div class="container">
+                    <h2 class="text-center">Sweets</h2>
+        
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/gulab jamun.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Sizzling Gulab Jamun</h4>
+                    <p class="food-price">Rs 540/kg</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, Chicken, and organice vegetables.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+        
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/assortment-pieces-cake.jpg" alt="Chicke Hawain Momo" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Yummilicious Pastries</h4>
+                    <p class="food-price">Rs 100/piece</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, Chicken, and organice vegetables.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/delicious-sweet-cake-with-strawberries-baiser.jpg" alt="Chicke Hawain Momo" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Straw-berry Cake</h4>
+                    <p class="food-price">Rs 120/piece</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, Chicken, and organice vegetables.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/kaju-katli.jpg" alt="Chicke Hawain Momo" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Kaju Katli</h4>
+                    <p class="food-price">Rs 999/kg</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, Chicken, and organice vegetables.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+        
+
+
+            <div class="clearfix"></div>
+
+            
+
+        </div>
+
+        <p class="text-center">
+            <a href="#">Chase the Flavour Today!!</a>
+        </p>
+    </section>
+    <!-- fOOD Menu Section Ends Here -->
+
+    <!-- social Section Starts Here -->
+    <section class="social">
+        <div class="container text-center">
+            <ul>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- social Section Ends Here -->
+
+    <!-- footer Section Starts Here -->
+    <section class="footer">
+        <div class="container text-center">
+            <p>All rights reserved. Designed By <a href="#">Ashutosh Tomar, Divyanshu Tripathi</a></p>
+        </div>
+    </section>
+    <!-- footer Section Ends Here -->
+
+</body>
+</html>

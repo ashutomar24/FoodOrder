@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="images/pinch of spice.png" alt="Restaurant Logo" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Categories</a>
+                    </li>
+                    <li>
+                        <a href="Offers.html">Offers</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="order.html">Order</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Navbar Section Ends Here -->
+
+    <!-- fOOD sEARCH Section Starts Here -->
+    <section class="food-search">
+        <div class="container">
+            
+            <h2 class="text-center text-white">Fill this form to confirm your order.</h2>
+
+            <form action="#" class="order">
+                <fieldset>
+                    <legend>Selected Food</legend>
+
+                    <div class="food-menu-img">
+                        <img src="images/corona beer.jpg" alt="Paneer Tikka" class="img-responsive img-curve">
+                    </div>
+    
+                    <div class="food-menu-desc">
+                        <h3>Corona Beer</h3>
+                        <p class="food-price">Rs 250</p>
+
+                        <div class="order-label">Quantity</div>
+                        <input type="number" name="qty" class="input-responsive" value="1" required>
+                        
+                    </div>
+
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <div class="order-label">Full Name</div>
+                    <input type="text" name="full-name" pattern="[A-Za-z\s]{5,25}"title="Name should contain only alphabets(5-25)" placeholder="E.g. Divyanshu Tripathi"  class="input-responsive" required >  
+                    
+
+                    <div class="order-label">Phone Number</div>
+                    <input type="tel" name="contact" pattern="(?=.*\d).{10}"  title="Please enter a valid 10 digit number " placeholder="E.g. 9843xxxxxx"   class="input-responsive" required  href="#" class="btn btn-warning">
+                    <a href="otp.html"target="_blank" class="btn btn-warning">Ask for OTP</a>
+                    
+                    <div class="order-label">Email</div>
+                    <input type="email" name="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"placeholder="E.g. pinchofspice@order.com" class="input-responsive" required>
+                  
+                    
+                    <div class="order-label">Address</div>
+                    <textarea name="address" rows="10" placeholder="E.g. Street, City, Country" class="input-responsive" required></textarea>
+               
+                    <button id='btn-next' name ='next' type='button' class='btn btn-block btn-primary' onclick="confirmOrder()">Confirm Order</button>
+                    <input type="submit"class='btn btn-block btn-primary'>
+                </fieldset>
+
+
+            </form>
+
+        </div>
+    </section>
+    <!-- fOOD sEARCH Section Ends Here -->
+
+    <!-- social Section Starts Here -->
+    <section class="social">
+        <div class="container text-center">
+            <ul> <p class="text-center">
+                <a href="#">Social Links</a>
+            </p>
+                <li>
+                    <a href="https://m.facebook.com/100013443391324/" target="_blank"> <img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/ashutosh__0214?utm_medium=copy_link" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+                    
+                </li>
+                <li>
+                    <a href="https://twitter.com/Ashutos99991034?t=RtDeOFJrTLVdwlOnXE68Dg&s=08" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+                  
+                </li>
+            </ul>
+            </div>
+    </section>
+    <!-- social Section Ends Here -->
+
+    <!-- footer Section Starts Here -->
+    <section class="footer">
+        <div class="container text-center">
+            <p>All trademarks are properties of their respective owners. 2008-2021 © Pinch of Spice™ Ltd.<br>All rights reserved.<br> Designed By <a href="#">Ashutosh Tomar, Divyanshu Tripathi, Ishika Goyal</a></p>
+        </div>
+    </section>
+    <!-- footer Section Ends Here -->
+
+</body>
+<script>
+    function confirmOrder() {
+  alert("Your Order 'Corona Beer' is Confirmed");
+}
+</script>
+</html>
